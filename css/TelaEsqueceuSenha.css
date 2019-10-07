@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(216, 74, 74); 
+    font: normal 15px arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+header div{
+    border-bottom: 1px solid black; 
+}
+
+section{
+    margin: auto;
+    padding: 15px;    
+    width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363)
+}
+
+.Itens{
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    width: 790px;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.mensagemErro{
+    font-size: 13px;
+    margin: 0px 0px 5px;
+    color: red;
+}
+
+.botao input{
+    height: 30px;
+    width: 150px;
+}

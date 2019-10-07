@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Produtos</title>
+    <link rel="stylesheet" href="css/TelaEsqueceuSenha.css">
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <h1>Esqueceu sua senha?</h1>
+        </div>
+
+        <h2>Obtenha sua senha aqui.</h2>
+        <h4>Preencha seu e-mail abaixo. Você receberá um link para recuperar sua senha.</h4>
+    </header>
+ 
+    <section>   
+        <form action="gravar.php" method="POST" id="Form_CadastroProduto">
+            <div>
+                E-mail: <input type="email" class="Itens" id="email" placeholder="Seu E-mail"   >          
+                <span class="mensagemErro erroEmail"></span>
+            </div>
+
+            <div class="botao">
+                <input type="button" value="Obter nova Senha" onclick="novaSenha()">
+            </div>
+        </form>
+    </section>
+
+    <script src="js/TelaEsqueceuSenha.js"></script>
+
+</body>
+
+</html>

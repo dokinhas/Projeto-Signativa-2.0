@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(134, 134, 194); 
+    font: normal 15px arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    position: relative;
+    margin: auto;
+    padding: 15px;    
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363)
+}
+
+.nav_abas{
+    width: 600px;
+    height: 640px;
+    background-color: white;
+    position: relative;
+}
+
+.nav_abas ul{
+    list-style: none;
+}
+
+.nav_abas ul li{
+    float: left;
+}
+
+.nav_abas label{
+    width: 235px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.abas:checked ~ label{
+    background-color: rgb(134, 134, 194);
+}
+
+.abas{
+    display: none;
+    border-radius: 5px;    
+}
+
+.conteudo{
+    border-top: 10px solid white;
+    display: none;
+    position: absolute;
+    height: 5px;
+    width: 100%px;
+    left: 0;
+    border-radius: 5px;
+}
+
+.abas:checked ~ .conteudo{
+    display: block;
+}
+
+.mensagemErro{
+    font-size: 13px;
+    margin: 0px 0px 5px;
+    color: red;
+}
+
+/*
+.conteudo article label{
+    color: red;
+    font-size: 15px;
+    font-style: normal;
+}
+*/
+
+.Itens{
+    display: block;
+    margin-top: 5px;
+    width: 595px;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.botao input{
+    height: 30px;
+    width: 80px;
+}
